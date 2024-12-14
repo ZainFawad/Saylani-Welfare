@@ -1,0 +1,493 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.navbtn1{
+    background-color:#f2f1e9;
+    opacity: 0.9;
+    padding: 17px 0;
+    position: relative;
+}
+.enggbtn:hover{
+    scale: 1.1;
+}
+.header1 .navbtn1 ul li {
+    display: flex;
+    display: inline-block;
+}
+.navimg a img{
+     width: 20px;
+     height: 20px;
+}
+.nav1{
+    gap: 5px;
+}
+.header1 .navbtn1 ul li .nav3 .i3{
+    color: green;
+    font-size: 20px;
+   margin-right: 7px;
+   margin-left: 10px;
+   margin-top: 15px;
+}
+.header1 .navbtn1 ul li .nav2 .i2{
+    color: blue;
+    font-size: 20px;
+   margin-right: 7px;
+   margin-left: 10px;
+   margin-top: 15px;
+
+}
+.header1 .navbtn1 ul li .nav1 .i1{
+   font-size: 20px;
+   margin-right: 7px;
+   margin-left: 40px;
+   margin-top: 15px;
+
+}
+.navimgs li .navimg{
+padding: 5px 0;
+margin-top: 15px;
+
+}
+.navatag a{
+    color: #000;
+    text-decoration: none;
+}
+.header1 .navbtn1 li .nav4{
+    margin-left: 10px;
+    cursor: pointer;
+}
+.header1 .navbtn1 .navimgs{
+    margin-left: 10px;
+}
+.engbutton .enggbtn{
+    position: absolute; 
+    top: 12px;
+    right: 100px;
+    border: 1px solid #000;
+    border-radius: 5px;
+    color: #000;
+    background-color: #fff;
+    padding: 10px 10px;
+    cursor: pointer;
+}
+
+.header2 .navbar ul li {
+    display: inline-block;
+    margin-left: 40px;
+}
+.header2 .navbar ul li a{
+    color: #666666;
+    text-decoration: none;
+}
+/* .header2 .navbar ul li .saylanilogo img{
+    margin-top: 10px;
+} */
+.navbar{
+    background-color: #fff;
+}
+.navbarbtn1{
+    position:absolute;
+    right: 210px;
+    color: #fff;
+    background-color:#0D6DB7;
+    padding: 17px 30px;
+    top: 65px;
+    border-radius: 5px;
+
+}
+.navbarbtn1:hover{
+    scale: 1.1;
+}
+.navbarbtn2:hover{
+    scale: 1.1;
+}
+.navbarbtn2{
+    position:absolute;
+    right: 30px; 
+    color: #fff;
+    background-color:#8DC63F;
+    padding: 17px 30px;
+    top: 65px;
+    border-radius: 5px;
+}
+.header2 .navbar ul li .navbarbtn a:hover{
+    text-decoration: underline;
+    color:#8DC63F ;
+}
+.r1{
+    display: flex;
+    margin-top:50px ;
+}
+.r1 .r1div1 {
+    flex: 1;
+    margin-top: 200px;
+    margin-left: 30px;
+}
+.r1 .r1div2{
+    flex: 1;
+}
+.r1 .r1div1 .para .p1{
+    color: #000;
+    font-size: 40px;
+}
+.saylani{
+    color: #8DC63F;
+}
+.para{
+    margin-bottom: 50px;
+}
+.p2{
+    margin-top: 50px;
+    color: #000;
+    font-size: 34px;
+    margin-bottom: 30px;
+}
+.dailymeals{
+    color: #0D6DB7;
+}
+.p3{
+    color: #666666;
+    font-size: 18px;
+}
+.explore{
+    font-size: 17px;
+    background-color: #fff;
+    padding: 20px 30px;
+    margin-top: 15px;
+    cursor: pointer;
+}
+.explore:hover{
+    scale: 1.1;
+}
+
+.optionbar .option{
+    background-color: lightgreen;
+    border: 1px solid #fff;
+    border-radius: 8px;
+    padding: 10px;
+    padding-top: 10px;
+    width: 100%;
+    height: 90px;
+}
+.optionbar .option ul li {
+    display: inline-block;
+    margin-top : 20px ;
+    margin-bottom: 20px;
+}
+.optionbar .option ul li a{
+    text-decoration: none;
+    color: #000;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    padding: 10px 30px;
+    background-color: #fff;
+    margin: 40px;
+}
+.optionbar .option ul li a:hover{
+    color: #fff;
+    background-color: #000;
+    border: none;
+}
+.active button{
+    color: #fff;
+    background-color: #8DC63F;
+    border-radius: 5px;
+    padding: 10px 30px;
+    cursor: pointer;
+}
+.active button:hover{
+   scale: 1.1;
+}
+.donationimg{
+    max-width: 100%;
+    margin-top: 30px;
+    position: relative;
+
+}
+.donimg{
+    width: 90%;
+    height: 650px;
+    margin-left: 70px;
+    /* position: relative; */
+}
+.donimgbtn{
+    position:absolute;
+    right: 90px;
+    bottom: 30px;
+    color: #fff;
+    background-color:#8DC63F;
+    padding: 17px 30px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.donimgbtn:hover{
+    scale: 1.1;
+}
+.works{
+    margin-top: 40px ;
+    cursor: pointer;
+}
+.works h1{
+    position: relative;
+    left: 460px;
+    font-size: 40px;
+}
+.works ul li{
+    display: inline-block;
+    height: 150px;
+    width: 150px;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+.works ul li{
+    transition: all ease 0.6s;
+}
+.works ul li:hover{
+    /* scale: 1.1; */
+    transform:translateY(-12px) ;
+}
+.works ul li img{
+    background-color: lightgreen;
+    border-radius: 7px;
+    height: 150px;
+    width: 150px;
+    margin-left: 30px;
+    padding: 30px ;
+}
+.distribution{
+    max-width: 100%;
+    margin-top: 30px;
+}
+.distimg{
+    width: 90%;
+    height: 550px;
+    margin-left: 70px;
+    border:1px solid #8DC63F ;
+    border-top-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    margin-top: 180px;
+}
+.distribution{
+    display: flex;
+}
+.distribution .dist1{
+ flex: 1;
+}
+.distribution .dist2{
+ flex: 1;
+}
+.dist2 h1{
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: -30px;
+    margin-top: 30px;
+}
+.dist2 ul li{
+    background-color: lightgrey;
+    border-radius: 7px;
+    height: 100px;
+    width: 100px;
+    margin-top: 80px;
+    margin-left: 50px;
+    padding-left: 10px;
+    padding-right:10px ;
+    padding-top: 10px;
+    padding-bottom:10px ;
+
+}
+.dist2 ul li img{
+
+    border-radius: 7px;
+    height: 60px;
+    width: 60px;
+    margin-left: 10px;
+    margin-right:10px ;
+    margin-top: 10px;
+    margin-bottom:10px ;
+
+}
+.hep{
+    display: flex ;
+    /* display: table-row; */
+
+}
+.hepatitis {
+    flex: 1;
+    /* display: table-row; */
+}
+.heptxt{
+    flex: 1;
+    padding-bottom: 20px;
+}
+
+.heph{
+    margin-top: 20px;
+    color: #0D6DB7;
+}
+.house{
+    display: flex ;
+}
+.housing{
+    flex: 1;
+    margin-top: 200px;
+}
+.housetxt{
+    flex: 1;
+    margin-bottom: 20px;
+}
+.househ{
+    margin-top: 20px;
+    color: #0D6DB7;
+}
+.it{
+    display: flex ;
+}
+.itt{
+    flex: 1;
+    margin-top: 200px;
+}
+.ittxt{
+    flex: 1;
+    margin-bottom: 20px;
+}
+.ith{
+    margin-top: 20px;
+    color: #0D6DB7;
+}
+.tharparkar{
+    display: flex ;
+}
+.thar{
+    flex: 1;
+    margin-top: 200px;
+}
+.thartxt{
+    flex: 1;
+    margin-bottom: 20px;
+}
+.tharh{
+    margin-top: 20px;
+    color: #0D6DB7;
+}
+.donation3{
+    display: flex;
+    text-align: center;
+    margin-top: 50px;
+}
+.imgdon1{
+    flex: 1;
+}
+.imgdon1:hover{
+    scale: 1.1;
+}
+.imgdon2{
+    flex: 1;
+}
+.imgdon2:hover{
+    scale: 1.1;
+}
+.imgdon3{
+    flex: 1;
+}
+.imgdon3:hover{
+    scale: 1.1;
+}
+.imgdon1 img{
+     width: 400px;
+     height: 250px;
+     border-radius: 10px;
+}
+.imgdon2 img{
+    width: 400px;
+    height: 250px;
+    border-radius: 10px;
+}
+.imgdon3 img{
+    width: 400px;
+    height: 250px;
+    border-radius: 10px;
+}
+.pngbackground{
+    max-width: 100%;
+    margin-top:100px ;
+}
+.pngbackground .back{
+    background-image:url(iiii/backimg.jpg) ;
+    background: cover;
+    height: 500px;
+    width: 90%;
+    margin-left: 70px;
+    text-align: center;
+
+}
+.pngbackground .back ul li {
+    display: inline-block;
+    background-color: #fff;
+    height: 130px;
+    width: 130px;
+    padding-top: 50px;
+    border-radius:70px ;
+    margin-top: 120px;
+    margin-left: 60px;
+    margin-right: 60px;
+}
+.back ul li img{
+    height: 70px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-bottom: 20px;
+}
+.back ul li span p{
+color: #fff;
+font-size: 18px;
+margin-top: 15px;
+}
+.lastmed img{
+    padding-top:-20px ;
+    height: 70px;
+}
+.lastmed{
+    margin-top:20px ;
+}
+.ourtest{
+    text-align: center;
+}
+.ourtest .ppp p{
+ color: #8DC63F;
+ font-size: 22px;
+ margin-top: 20px;
+}
+.ourtest div h1{
+ margin-top: 15px;
+ font-size: 40px;
+}
+.testdiv3{
+    max-width: 100%;
+    margin-top:30px ;
+}
+.testdiv3 .testdivv1{
+    margin-left: 70px;
+    width: 90%;
+    background-color: #acc2c1;
+    padding-top: 60px;
+    padding-left:25px;
+    padding-right: 25px;
+    padding-bottom: 20px;
+}
+.testdiv3 .testdivv1 .testdivv11 img{
+  width: 110px;
+  height: 110px;
+  border-radius: 70px;
+}
+.testdivname{
+    margin-top: 15px;
+    color: blue;
+    margin-bottom:10px ;
+}
+.testdiv2name p{
+    color: #000;
+    margin-bottom: 15px;
+    /* font-size: 16px; */
+}
